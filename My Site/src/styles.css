@@ -1,0 +1,63 @@
+/*-- FONTS CSS --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;600;700&family=Poppins:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-- BODY --*/
+
+body {
+    font-family: 'Fira Code', monospace;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-- HEADER --*/
+
+.style-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 45px;
+    background-color: #0d1137;
+}
+
+.style-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.onglet {
+    display: flex;
+}
+
+.onglet ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.onglet ul li {
+    margin: 0px 5px;
+}
+
+.onglet ul a {
+    font-size: 0.8em;
+    font-family: 'Fira Code', monospace;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    padding: 10px;
+}
+
+.onglet ul span {
+    color: #e52165;
+} 
