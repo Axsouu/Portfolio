@@ -14,13 +14,17 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+html span {
+    color: #e52165;
+}
+
 /*-- HEADER --*/
 
 .style-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 45px;
+    padding: 10px 45px;
     background-color: #0d1137;
 }
 
@@ -59,13 +63,55 @@ body {
     padding: 10px;
 }
 
-.onglet ul span {
-    color: #e52165;
-} 
-
 /*-- SECTION 1 --*/
 
 .sec1 {
     height: 1000px;
     background-color: #0d1137;
 }
+
+.container {
+    padding: 250px 430px;
+}
+
+.sec1 h1 {
+    font-size: 1.2em;
+    font-family: 'Fira Code', monospace;
+    color: #e52165;
+    margin-left: 3px;
+}
+
+.sec1 h2 {
+    font-size: 4em;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(202, 202, 202);
+    margin-bottom: -20px;
+}
+
+.sec1 h3 {
+    font-size: 4em;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(160, 160, 160);
+}
+
+.button-31 {
+    background-color: #e52165;
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Fira Code', monospace;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+    min-height: 44px;
+    padding: 9px 20px 8px;
+    margin-top: 8px;
+    margin-left: 2px;
+  }
+  
+  .button-31:hover,
+  .button-31:focus {
+    opacity: .70;
+  }
